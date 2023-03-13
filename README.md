@@ -40,3 +40,22 @@ git commit -m "First commit"
 git push --set-upstream origin master
 git status
 ```
+
+To  see the current repository: \
+git remove -v
+
+
+----------------------------------------------------------------
+
+Add a new pipeline,
+use advanced project options, inside pipeline definition: choose pipeline script from SCM.
+Select git in SCM, ADD the repo url and the credentials we created earlier and save.
+Make sure the branch is what you have in the repository.
+
+----------------------------------------------------------------
+
+Once done, save and apply. and then build the pipeline.
+
+----------------------------------------------------------------
+
+Head to EC2, and select the loadbalancer , you should be able to see nginx deployed
