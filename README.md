@@ -21,3 +21,22 @@ Move to jenkins: \
 `http://35.175.131.53:8080/`
 
 Follow the instructions and complete the setup!
+
+---------
+
+Add a repository: \
+
+```
+gh repo create
+# You can delete repository this way
+------------------------------------
+gh repo delete jenkins-pipe --yes
+# Follow the instructions
+------------------------------------
+git status
+git add .
+git status
+git commit -m "First commit"
+git push --set-upstream origin master
+git status
+```
